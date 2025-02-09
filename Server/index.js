@@ -13,7 +13,7 @@ const GoogleStrategy = require("passport-google-oauth20").Strategy;
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://auth-v1-alpha.vercel.app", // Set the specific frontend URL here
+    origin: "https://kplor-new.vercel.app", // Set the specific frontend URL here
     credentials: true,  // Important for cookies, sessions, and authorization headers
   })
 );
