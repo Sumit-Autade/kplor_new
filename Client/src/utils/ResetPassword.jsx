@@ -16,7 +16,7 @@ const ResetPassword = () => {
 
   // Read email from cookies
   const email = Cookies.get("resetEmail");
-  const API_URL = "https://auth-v1-4.onrender.com";
+  const API_URL = "https://kplor-new.onrender.com";
 
   useEffect(() => {
     if (!email) {
